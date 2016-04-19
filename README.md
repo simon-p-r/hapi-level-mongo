@@ -1,4 +1,4 @@
-# bananas
+# hapi-level-mongo
 
 [level-mongo](https://github.com/simon-p-r/level-mongo) hapi plugin
 
