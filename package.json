@@ -29,6 +29,6 @@
     "rimraf": "^2.5.2"
   },
   "dependencies": {
-    "level-mongo": "0.0.3"
+    "level-mongo": "0.0.4"
   }
 }
