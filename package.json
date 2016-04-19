@@ -1,0 +1,33 @@
+{
+  "name": "hapi-level-mongo",
+  "version": "0.0.1",
+  "description": "a level-mongo plugin for hapi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -t 100 -v -a code -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/simon-p-r/hapi-level-mongo.git"
+  },
+  "keywords": [
+    "hapi",
+    "plugin",
+    "leveldb",
+    "mongodb"
+  ],
+  "author": "simon-p-r <simon.ricaldone@circabs.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/simon-p-r/hapi-level-mongo/issues"
+  },
+  "homepage": "https://github.com/simon-p-r/hapi-level-mongo#readme",
+  "devDependencies": {
+    "code": "^2.2.0",
+    "hapi": "^13.3.0",
+    "lab": "^10.3.1"
+  },
+  "dependencies": {
+    "level-mongo": "0.0.3"
+  }
+}
