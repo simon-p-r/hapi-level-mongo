@@ -1,6 +1,6 @@
 {
   "name": "hapi-level-mongo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "a level-mongo plugin for hapi",
   "main": "lib/index.js",
   "scripts": {
@@ -29,6 +29,6 @@
     "rimraf": "^2.5.2"
   },
   "dependencies": {
-    "level-mongo": "^0.1.0"
+    "level-mongo": "^0.2.0"
   }
 }
