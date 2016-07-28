@@ -4,7 +4,7 @@ const Lab = require('lab');
 const Hapi = require('hapi');
 const Code = require('code');
 const HapiLevelMongo = require('..');
-const RmDir = require('rimraf');
+const Utils = require('basic-utils');
 
 const location = './test/fixtures/level';
 
@@ -18,7 +18,7 @@ describe('hapi-level-mongo', () => {
 
     after((done) => {
 
-        RmDir(location, (err) => {
+        Utils.rmDir(location, (err) => {
 
             expect(err).to.not.exist();
             done();
