@@ -34,7 +34,7 @@ describe('hapi-level-mongo', () => {
         const plugins = {
             register: HapiLevelMongo,
             options: {
-                location: location,
+                location,
                 collections: {
                     users: {
                         key: '_id'
